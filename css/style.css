@@ -1,1 +1,171 @@
 @charset "utf-8";
+.inner{ 
+  width: 1100px;
+}
+/* header */
+.header{
+  background: #ffff;
+  margin: 0 auto;
+}
+.header_area{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo_area{
+  margin: 15px 0;
+}
+.contact_box{
+  background-color: #6ba7eb;
+  padding: 12px 14px;
+}
+a{
+  color: #ffff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* keyvisual */
+.keyvisual_area{
+
+}
+.fv{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.big_title{
+  position: absolute;
+  top: 400px;
+  bottom: 400px;
+  width: 100%;
+  text-align: center;
+}
+.company{
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  margin-bottom: 30px;
+}
+.concept{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* work */
+.work{
+  background: #e3f2fd;
+  padding-top: 50px;
+}
+.work_area{
+  display: flex;
+  margin: auto;
+}
+.work_box{
+  
+}
+.icon_pc{
+  width: 250px;
+}
+.title{
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+.work_text{
+  
+}
+.work_title{
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.text{
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+/* skills */
+.skills{
+  margin-top: 50px;
+}
+.s_p_title{
+  text-align: center;
+}
+.skill_area{
+  text-align: center;
+  margin: 0 auto;
+}
+.skill_card{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+/* plan */
+.plan{
+  background: #d0dfea;
+  padding: 50px 0;
+}
+.table_area{
+  padding: 50px 0;
+  margin: 0 auto;
+}
+.cell_table{
+  table-layout: fixed;
+  width: 100%;
+}
+.cell_table tbody tr:not(first-child){
+  border-left: none;
+}
+.cell_table th, .cell_table td{
+  border-left: 2px solid #fff;
+  padding: 10px;
+}
+.cell_table th{
+  background: #6ba7eb;
+  font-size: 16px;
+  line-height: 26px;
+}
+.cell_table td{
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+.cell_table tr{
+  background: #f9f9f9;
+}
+.cell_table tr:nth-child(even){
+  background: #e0efff;
+}
+/* sns */
+.sns{
+  background: #e3f3fd
+}
+.sns_area{
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+.sns_box{
+  
+}
+.fab{
+  font-size: 40px;
+}
+
+/* footer */
+.footer{}
+.privacy_gray{
+  background: #cfd8dc;
+}
+.privacyPolicy{
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+}
+.copy{
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}

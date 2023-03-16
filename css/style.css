@@ -9,7 +9,7 @@
 }
 .header_area{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
@@ -27,9 +27,9 @@ a{
 }
 
 /* keyvisual */
-.keyvisual_area{
+/* .keyvisual_area{ */
 
-}
+/* } */
 .fv{
   background-position: center;
   background-size: cover;
@@ -63,9 +63,9 @@ a{
   display: flex;
   margin: auto;
 }
-.work_box{
+/* .work_box{ */
   
-}
+/* } */
 .icon_pc{
   width: 250px;
 }
@@ -73,9 +73,9 @@ a{
   font-size: 40px;
   letter-spacing: 10px;
 }
-.work_text{
+/* .work_text{ */
   
-}
+/* } */
 .work_title{
   margin-top: 20px;
   margin-bottom: 35px;
@@ -94,7 +94,10 @@ a{
   text-align: center;
 }
 .skill_area{
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
   margin: 0 auto;
 }
 .skill_card{
@@ -143,20 +146,20 @@ a{
 .sns{
   background: #e3f3fd
 }
-.sns_area{
-  display: flex;
-  justify-content: center;
-  padding: 200px;
-}
-.sns_box{
+/* .sns_area{ */
   
+/* } */
+.sns_box{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 200px;
 }
 .fab{
   font-size: 40px;
 }
 
 /* footer */
-.footer{}
+/* .footer{} */
 .privacy_gray{
   background: #cfd8dc;
 }

@@ -36,9 +36,6 @@
 .keyvisual{
   width: 100%;
 }
-.keyvisual_area{
-  
-}
 .fv{
   background-position: center;
   background-size: cover;
@@ -168,9 +165,6 @@ td:first-child{
 .sns{
   background: #e3f3fd
 }
-.sns_area{
-
-}
 .sns_box{
   display: flex;
   justify-content: space-evenly;
@@ -193,9 +187,6 @@ td:first-child{
   background: #fff;
 }
 /* footer */
-.footer{
-
-}
 .privacy_gray{
   background: #cfd8dc;
 }

@@ -1,15 +1,16 @@
 @charset "utf-8";
+/* ----PC ------*/
 .inner{ 
   width: 1100px;
 }
 /* header */
 .header{
   background: #ffff;
-  margin: 0 auto;
+  margin: auto;
 }
 .header_area{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 0 auto;
 }
@@ -20,16 +21,24 @@
   background-color: #6ba7eb;
   padding: 12px 14px;
 }
-a{
+.button{
   color: #ffff;
   font-size: 12px;
   text-decoration: none;
+  transition: .3s;
+}
+.button:hover{
+  color: #333;
 }
 
-/* keyvisual */
-/* .keyvisual_area{ */
 
-/* } */
+/* keyvisual */
+.keyvisual{
+  width: 100%;
+}
+.keyvisual_area{
+  
+}
 .fv{
   background-position: center;
   background-size: cover;
@@ -54,6 +63,7 @@ a{
   color: #fff;
 }
 
+
 /* work */
 .work{
   background: #e3f2fd;
@@ -63,9 +73,9 @@ a{
   display: flex;
   margin: auto;
 }
-/* .work_box{ */
-  
-/* } */
+.work_box{
+  flex: 4;
+}
 .icon_pc{
   width: 250px;
 }
@@ -73,9 +83,9 @@ a{
   font-size: 40px;
   letter-spacing: 10px;
 }
-/* .work_text{ */
-  
-/* } */
+.work_text{
+  flex: 6;
+}
 .work_title{
   margin-top: 20px;
   margin-bottom: 35px;
@@ -85,10 +95,12 @@ a{
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
+  text-align: center;
 }
 /* skills */
 .skills{
   margin-top: 50px;
+  margin-bottom: 70px;
 }
 .s_p_title{
   text-align: center;
@@ -99,12 +111,18 @@ a{
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
+  width: 1100px;
+}
+.slill_item{
+  margin-top: 100px;
 }
 .skill_card{
   width: 300px;
   height: 300px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  opacity: 0.7;
+}
+.skill_card:hover{
+  opacity: 0.3;
 }
 /* plan */
 .plan{
@@ -114,17 +132,18 @@ a{
 .table_area{
   padding: 50px 0;
   margin: 0 auto;
+  width: 1100px;
 }
 .cell_table{
   table-layout: fixed;
   width: 100%;
 }
-.cell_table tbody tr:not(first-child){
-  border-left: none;
-}
 .cell_table th, .cell_table td{
   border-left: 2px solid #fff;
   padding: 10px;
+}
+.cell_table th, .cell_table td:first-child{
+  border-left: 0;
 }
 .cell_table th{
   background: #6ba7eb;
@@ -136,6 +155,9 @@ a{
   font-size: 16px;
   line-height: 26px;
 }
+td:first-child{
+  font-weight: bold;
+}
 .cell_table tr{
   background: #f9f9f9;
 }
@@ -146,9 +168,9 @@ a{
 .sns{
   background: #e3f3fd
 }
-/* .sns_area{ */
-  
-/* } */
+.sns_area{
+
+}
 .sns_box{
   display: flex;
   justify-content: space-evenly;
@@ -156,10 +178,24 @@ a{
 }
 .fab{
   font-size: 40px;
+  transition: .5s;
+  overflow: hidden;
 }
-
+.fa-solid{ 
+  font-size: 40px;
+  transition: .5s;
+  overflow: hidden;
+}
+.fa-solid:hover{
+  background: #fff
+}
+.fab:hover{
+  background: #fff;
+}
 /* footer */
-/* .footer{} */
+.footer{
+
+}
 .privacy_gray{
   background: #cfd8dc;
 }
@@ -172,3 +208,113 @@ a{
   font-size: 10px;
   letter-spacing: 0.5px;
 }
+
+/* -----TAB------ */
+/* @media screen and (max-width: 1199px) {
+  
+  .header_area{
+    justify-content: space-between;
+    width: 97%;
+  }
+  
+  .big_title{
+    top: 250px;
+    bottom: 250px;
+  }
+  
+  .work{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .work_area{
+  display: block;
+  width: 97%;
+  }
+  .work_box{
+    text-align: center;
+  }
+  .text{
+    
+  }
+  
+  .skill_area{
+    flex-direction: column;
+    width: 97%;
+    margin-top: 80px;
+  }
+  .slill_item{
+    margin-top: 80px;
+  }
+  .slill_item:not(:nth-child(4)){
+    margin-top: 0;
+  }
+}
+/*----- SP -------*/
+/* @media screen and (max-width: 767px) {
+  
+  .hamburger-menu {
+    position: absolute;
+    background:#57a2c7;
+    width: 50px;
+    height:50px;
+    border-radius: 5px;
+    top: 15px;
+    right: 10px;
+  }
+  
+.hamburger-menu span{
+  display: inline-block;
+  transition: all .4s;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  border-radius: 2px;
+  background: #fff;
+  width: 45%;
+}
+  .hamburger-menu span:nth-of-type(1) {
+    top:15px; 
+  }
+  .hamburger-menu span:nth-of-type(2) {
+  top:23px;
+  }
+.hamburger-menu span:nth-of-type(3) {
+top:31px;
+}
+.contact_box{
+  background-color: #fff;
+  padding: 0;
+}
+
+.company{
+  font-size: 40px;
+}
+.concept{
+  font-size: 30px;
+}
+.cell_table th{
+  font-size: 14px;
+  line-height: 22px;
+}
+.cell_table td{
+  font-size: 12px;
+}
+.table_area{
+  width: 97%;
+}
+.sns_area{
+  padding: 50px 0;
+  margin: 0 15px;
+}
+.sns_box{
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.fab{
+  padding: 50px;
+}
+.fa-solid{ 
+  padding: 50px;
+}
+} */

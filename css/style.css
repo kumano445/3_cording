@@ -2,18 +2,19 @@
 /* ----PC ------*/
 .inner{ 
   width: 1100px;
+  margin: 0 auto;
 }
 /* header */
 .header{
   background: #ffff;
   margin: auto;
+  position: fixed;
+  width: 100%;
 }
 .header_area{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  width: 80%;
 }
 .logo_area{
   margin: 15px 0;
@@ -67,7 +68,6 @@
 }
 .work_area{
   display: flex;
-  margin: auto;
 }
 .work_box{
   flex: 4;
@@ -106,8 +106,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 auto;
-  width: 1100px;
 }
 .slill_item{
   margin-top: 100px;
@@ -128,8 +126,6 @@
 }
 .table_area{
   padding: 50px 0;
-  margin: 0 auto;
-  width: 1100px;
 }
 .cell_table{
   table-layout: fixed;
@@ -209,8 +205,7 @@ td:first-child{
   }
   
   .big_title{
-    top: 250px;
-    bottom: 250px;
+    padding: 250px 0;
   }
   
   .work{
@@ -239,10 +234,9 @@ td:first-child{
   .slill_item:not(:nth-child(4)){
     margin-top: 0;
   }
-}
+} */
 /*----- SP -------*/
 /* @media screen and (max-width: 767px) {
-  
   .hamburger-menu {
     position: absolute;
     background:#57a2c7;
@@ -276,7 +270,9 @@ top:31px;
   background-color: #fff;
   padding: 0;
 }
-
+..big_title{
+  padding: 200px 0;
+}
 .company{
   font-size: 40px;
 }
@@ -308,4 +304,4 @@ top:31px;
 .fa-solid{ 
   padding: 50px;
 }
-} */
+}  */

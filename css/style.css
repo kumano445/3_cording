@@ -170,11 +170,13 @@ td:first-child{
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
+  padding: 25px 0;
 }
 .fa-solid{ 
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
+  padding: 25px 0;
 }
 .fa-solid:hover{
   background: #fff

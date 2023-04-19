@@ -164,19 +164,22 @@ td:first-child{
 .sns_box{
   display: flex;
   padding: 200px;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
 }
 .fab{
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
   padding: 25px 0;
+  width: 185px;
 }
 .fa-solid{ 
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
   padding: 25px 0;
+  width: 185px;
 }
 .fa-solid:hover{
   background: #fff

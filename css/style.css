@@ -33,7 +33,9 @@
   color: #333;
 }
 
-
+main{
+  padding-top: 78px;
+}
 /* keyvisual */
 /* .fv{
   background-position: center;
@@ -42,10 +44,9 @@
 } */
 .keyvisual_area{
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
+  padding: 400px 0;
 }
 .big_title{
-  padding: 400px 0;
-  width: 100%;
   text-align: center;
 }
 .company{
@@ -71,6 +72,7 @@
 }
 .work_box{
   flex: 4;
+  text-align: center;
 }
 .icon_pc{
   width: 250px;
@@ -94,22 +96,37 @@
   text-align: center;
 }
 /* skills */
-.skills{
+/* .skills{
   margin-top: 50px;
   margin-bottom: 70px;
-}
+} */
 .s_p_title{
   text-align: center;
+  margin-top: 50px;
 }
 .skill_area{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
 }
-.slill_item{
+.slill_item:nth-child(-n+3) {
   margin-top: 100px;
+  margin-right: 100px;
 }
+.slill_item:nth-child(3){
+  margin-right: 0px;
+} 
+.slill_item:nth-child(n+4) {
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 70px;
+}
+.slill_item:nth-child(6) {
+  margin-right: 0px;
+}
+/* .slill_item{ 
+  margin-top: 100px;
+}*/
 .skill_card{
   width: 300px;
   height: 300px;

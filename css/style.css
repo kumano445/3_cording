@@ -96,21 +96,20 @@ main{
   text-align: center;
 }
 /* skills */
-/* .skills{
+.skills{
   margin-top: 50px;
-  margin-bottom: 70px;
-} */
+}
 .s_p_title{
   text-align: center;
-  margin-top: 50px;
 }
 .skill_area{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 .slill_item:nth-child(-n+3) {
-  margin-top: 100px;
   margin-right: 100px;
 }
 .slill_item:nth-child(3){
@@ -119,7 +118,6 @@ main{
 .slill_item:nth-child(n+4) {
   margin-top: 100px;
   margin-right: 100px;
-  margin-bottom: 70px;
 }
 .slill_item:nth-child(6) {
   margin-right: 0px;
@@ -142,7 +140,7 @@ main{
   padding: 50px 0;
 }
 .table_area{
-  padding: 50px 0;
+  margin-top: 50px;
 }
 .cell_table{
   table-layout: fixed;

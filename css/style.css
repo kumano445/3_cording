@@ -98,6 +98,7 @@ main{
 /* skills */
 .skills{
   padding-top: 50px;
+  margin-bottom: 70px;
 }
 .s_p_title{
   text-align: center;
@@ -107,20 +108,12 @@ main{
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 50px;
-  margin-bottom: 70px;
 }
-.slill_item:nth-child(-n+3) {
+.skill_item:nth-child(-n+2) {
   margin-right: 100px;
 }
-.slill_item:nth-child(3){
-  margin-right: 0px;
-} 
-.slill_item:nth-child(n+4) {
+.skill_item:nth-of-type(n+4):nth-of-type(-n+6) {
   margin-top: 100px;
-  margin-right: 100px;
-}
-.slill_item:nth-child(6) {
-  margin-right: 0px;
 }
 /* .slill_item{ 
   margin-top: 100px;

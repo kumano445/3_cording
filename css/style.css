@@ -174,6 +174,7 @@ td:first-child{
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  flex-direction:row;
 }
 .fab{
   font-size: 40px;
@@ -232,19 +233,15 @@ td:first-child{
     width: 97%;
     text-align: center;
   }
-  .skill_item:nth-of-type(n+4){
-    margin-top: 80px;
+  .skill_item:nth-child(-n+3) {
+    margin-right: 0;
   }
-  .skill_item:nth-of-type(n+5):nth-of-type(-n+6) {
-    margin-top: 0px;
+  .skill_item:nth-of-type(n+5) {
+    margin-top: 0;
   }
-  
 }  */
 /*----- SP -------*/
-  /* @media screen and (max-width: 767px) {  
-  .header_area{
-
-  }
+  /* @media screen and (max-width: 767px) { 
   .hamburger-menu {
     position: absolute;
     background: #57a2c7;
@@ -278,11 +275,10 @@ top:31px;
   background-color: #fff;
   padding: 0;
 }
-..keyvisual_area{
-
+.keyvisual_area{
+  padding: 200px 0;
 }
 .big_title{
-  padding: 200px 0;
   width: 97%;
 }
 .company{
@@ -301,19 +297,23 @@ top:31px;
 .table_area{
   width: 97%;
 }
+.sns{
+  padding: 0;
+}
 .sns_area{
+  width: 97%;
   padding: 50px 0;
   margin: 0 15px;
 }
 .sns_box{
   flex-direction: column;
-  align-items: center;
-  padding: 0;
 }
 .fab{
-  padding: 50px;
+  width: 100%;
+  padding: 50px 0;
 }
 .fa-solid{ 
-  padding: 50px;
+  padding: 50px 0;
+  width: 100%;
 }
-} */
+}  */

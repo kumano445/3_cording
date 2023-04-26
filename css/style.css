@@ -112,7 +112,7 @@ main{
 .skill_item:nth-child(-n+2) {
   margin-right: 100px;
 }
-.skill_item:nth-of-type(n+4):nth-of-type(-n+6) {
+.skill_item:nth-of-type(n+4) {
   margin-top: 100px;
 }
 /* .slill_item{ 
@@ -210,19 +210,14 @@ td:first-child{
 }
 
 /* -----TAB------ */
-/* @media screen and (max-width: 1199px) {
-  
+/* @media screen and (max-width: 1199px) { 
   .header_area{
-    justify-content: space-between;
     width: 97%;
   }
-  
-  .big_title{
+  .keyvisual_area{
     padding: 250px 0;
   }
-  
   .work{
-    width: 100%;
     padding-bottom: 50px;
   }
   .work_area{
@@ -232,27 +227,27 @@ td:first-child{
   .work_box{
     text-align: center;
   }
-  .text{
-    
-  }
-  
   .skill_area{
     flex-direction: column;
     width: 97%;
+    text-align: center;
+  }
+  .skill_item:nth-of-type(n+4){
     margin-top: 80px;
   }
-  .slill_item{
-    margin-top: 80px;
+  .skill_item:nth-of-type(n+5):nth-of-type(-n+6) {
+    margin-top: 0px;
   }
-  .slill_item:not(:nth-child(4)){
-    margin-top: 0;
-  }
-} */
+  
+}  */
 /*----- SP -------*/
-/* @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {  
+  .header_area{
+
+  }
   .hamburger-menu {
     position: absolute;
-    background:#57a2c7;
+    background: #57a2c7;
     width: 50px;
     height:50px;
     border-radius: 5px;
@@ -283,8 +278,12 @@ top:31px;
   background-color: #fff;
   padding: 0;
 }
-..big_title{
+..keyvisual_area{
+
+}
+.big_title{
   padding: 200px 0;
+  width: 97%;
 }
 .company{
   font-size: 40px;
@@ -317,4 +316,4 @@ top:31px;
 .fa-solid{ 
   padding: 50px;
 }
-}  */
+} */

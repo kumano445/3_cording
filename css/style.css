@@ -211,7 +211,7 @@ td:first-child{
 }
 
 /* -----TAB------ */
-/* @media screen and (max-width: 1199px) { 
+@media screen and (max-width: 1199px) { 
   .header_area{
     width: 97%;
   }
@@ -239,9 +239,9 @@ td:first-child{
   .skill_item:nth-of-type(n+5) {
     margin-top: 0;
   }
-}  */
+} 
 /*----- SP -------*/
-  /* @media screen and (max-width: 767px) { 
+  @media screen and (max-width: 767px) { 
   .hamburger-menu {
     position: absolute;
     background: #57a2c7;
@@ -316,4 +316,4 @@ top:31px;
   padding: 50px 0;
   width: 100%;
 }
-}  */
+}

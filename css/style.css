@@ -225,19 +225,22 @@ td:first-child{
   display: block;
   width: 97%;
   }
-  .work_box{
-    text-align: center;
+  .skills{
+    margin-bottom: 0;
   }
   .skill_area{
     flex-direction: column;
     width: 97%;
     text-align: center;
   }
-  .skill_item:nth-child(-n+3) {
+  .skill_item:nth-child(-n+2) {
     margin-right: 0;
-  }
-  .skill_item:nth-of-type(n+5) {
+  } 
+  .skill_item:nth-of-type(n+4) {
     margin-top: 0;
+  }
+  .skill_item:nth-of-type(3n){
+    margin-bottom:  100px;
   }
 } 
 /*----- SP -------*/
@@ -271,9 +274,8 @@ td:first-child{
 .hamburger-menu span:nth-of-type(3) {
 top:31px;
 }
-.contact_box{
-  background-color: #fff;
-  padding: 0;
+.nav_contact{
+  display: none;
 }
 .keyvisual_area{
   padding: 200px 0;

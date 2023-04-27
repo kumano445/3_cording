@@ -215,8 +215,12 @@ td:first-child{
   .header_area{
     width: 97%;
   }
+  
   .keyvisual_area{
     padding: 250px 0;
+  }
+  .big_title{
+    width: 97%;
   }
   .work{
     padding-bottom: 50px;
@@ -241,6 +245,12 @@ td:first-child{
   }
   .skill_item:nth-of-type(3n){
     margin-bottom:  100px;
+  }
+  .table_area {
+    width: 97%;
+  }
+  .sns_area{
+    width: 97%;
   }
 } 
 /*----- SP -------*/
@@ -279,9 +289,6 @@ top:31px;
 }
 .keyvisual_area{
   padding: 200px 0;
-}
-.big_title{
-  width: 97%;
 }
 .company{
   font-size: 40px;

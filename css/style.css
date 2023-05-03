@@ -10,6 +10,7 @@
   margin: auto;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 .header_area{
   display: flex;
@@ -98,14 +99,13 @@ main{
 /* skills */
 .skills{
   padding-top: 50px;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 .s_p_title{
   text-align: center;
 }
 .skill_area{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 50px;
 }
@@ -114,7 +114,12 @@ main{
 }
 .skill_item:nth-of-type(n+4) {
   margin-top: 100px;
+  margin-right: 100px;
 }
+.skill_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
 /* .slill_item{ 
   margin-top: 100px;
 }*/
@@ -197,11 +202,12 @@ td:first-child{
   background: #fff;
 }
 /* footer */
-.privacy_gray{
+.footer{
   background: #cfd8dc;
 }
 .privacyPolicy{
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: end;
 }

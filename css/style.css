@@ -185,15 +185,19 @@ td:first-child{
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
-  padding: 25px 0;
+  height: 50%;
   width: 185px;
-}
+  padding-top: 25px;
+  padding-bottom: 25px;
+} 
 .fa-solid{ 
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
-  padding: 25px 0;
+  height: 50%;
   width: 185px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .fa-solid:hover{
   background: #fff
@@ -201,6 +205,9 @@ td:first-child{
 .fab:hover{
   background: #fff;
 }
+/* a{
+  background: #57a2c7;
+} */
 /* footer */
 .footer{
   background: #cfd8dc;
@@ -221,29 +228,20 @@ td:first-child{
   .inner{
     width: 97%;
   }
-  .header_area{
-    width: 97%;
-  }
-  
   .keyvisual_area{
     padding: 250px 0;
-  }
-  .big_title{
-    width: 97%;
   }
   .work{
     padding-bottom: 50px;
   }
   .work_area{
   display: block;
-  width: 97%;
   }
   .skills{
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
   .skill_area{
     flex-direction: column;
-    width: 97%;
     text-align: center;
   }
   .skill_item:nth-child(-n+2) {
@@ -255,12 +253,6 @@ td:first-child{
   }
   .skill_item:nth-of-type(3n){
     margin-bottom:  100px;
-  }
-  .table_area {
-    width: 97%;
-  }
-  .sns_area{
-    width: 97%;
   }
 } 
 /*----- SP -------*/
@@ -329,10 +321,12 @@ top:31px;
 }
 .fab{
   width: 100%;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .fa-solid{ 
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
 }
 }

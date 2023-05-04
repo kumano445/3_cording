@@ -182,19 +182,21 @@ td:first-child{
   flex-direction:row;
 }
 .fab{
+  display: block;
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
-  height: 50%;
+  /* height: 50%; */
   width: 185px;
   padding-top: 25px;
   padding-bottom: 25px;
 } 
 .fa-solid{ 
+  display: block;
   font-size: 40px;
   transition: .5s;
   overflow: hidden;
-  height: 50%;
+  /* height: 50%; */
   width: 185px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -205,9 +207,9 @@ td:first-child{
 .fab:hover{
   background: #fff;
 }
-/* a{
-  background: #57a2c7;
-} */
+a{ 
+  text-decoration: none;
+}
 /* footer */
 .footer{
   background: #cfd8dc;
